@@ -7,7 +7,14 @@ package _01_race_car;
 
 
 public class RaceCarRunner {
-	public static void main(String[] args) {
+	public static void main(String [] args) {
+		RaceCar car = new RaceCar("Audi", 5);
+		car.getPositionInRace();
+		car.crash();
+		car.pit();
+		for(int i = 1; i < 9; i++) {
+			car.overtake();
+		}
 		/* Do the following things without changing the RaceCar class */
 		
 		// 1. Create a RaceCar and place it in 5th position
