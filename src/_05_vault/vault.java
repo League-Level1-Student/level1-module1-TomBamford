@@ -5,25 +5,26 @@ import javax.swing.JOptionPane;
 public class vault {
 	
 	public boolean cracked = false;
-	private int secretCode;
-	
-	
-		public vault(int secretCode) {
-			String code = JOptionPane.showInputDialog("Choose a number from zero to one million as your vault code");
-			secretCode = Integer.parseInt(code);
-					public int tryCode(int secretCode) {
-						if (i = secretCode) {
-							
-							
-						}
-					}
-				this.secretCode = secretCode;
+	int secretCode;
+	public vault(int secretCode) {
+		this.secretCode = secretCode;
+	}
+	public static void main(String[] args) {
+				vault v = new vault(321651);
+				v.tryCode(1);
+	}
+	public boolean tryCode(int secretCode2) {
+			if (secretCode == secretCode2) {
+				return true;
+			}
+			else {
+				return false;
+			}
+	}			
 }
-}				
 	
 	
 
 	
 	
-	// tests all of the numbers from 0 - 1 million, accepts the parameter number, if the for loop i matches the number, then return true else return false
 

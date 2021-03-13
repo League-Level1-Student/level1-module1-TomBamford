@@ -1,18 +1,23 @@
 package _05_vault;
 
 public class JamesBond {
-	public static void main(String[] args) {
-		vault v = new vault(21320);
-		public findCode(vault v) {
-			for(int i = 0; i < 1000000; i++) {
-				if (cracked = true) {
-					return i;
-				}
-				else if (cracked = false) {
-					return -1;
-				}
-			}
+	public boolean cracked = false;
+		static vault v = new vault(321651);
+		public static void main(String[] args) {
+			JamesBond j = new JamesBond();
+			j.findCode(v);
+			System.out.println(j.findCode(v));
+		}
+
+public int findCode(vault v) {
+	for(int i = 0; i < 1000000; i++) {
+		if (v.secretCode == i) {
+			return i;
 		}
 	}
+	return -1;
+	}
+
 }
+
 
