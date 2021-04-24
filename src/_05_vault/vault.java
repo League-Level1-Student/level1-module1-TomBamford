@@ -10,7 +10,7 @@ public class vault {
 		this.secretCode = secretCode;
 	}
 	public static void main(String[] args) {
-				vault v = new vault(321651);
+				vault v = new vault(655435);
 				v.tryCode(1);
 	}
 	public boolean tryCode(int secretCode2) {
@@ -20,7 +20,8 @@ public class vault {
 			else {
 				return false;
 			}
-	}			
+	}
+	
 }
 	
 	

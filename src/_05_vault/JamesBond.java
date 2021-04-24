@@ -2,7 +2,7 @@ package _05_vault;
 
 public class JamesBond {
 	public boolean cracked = false;
-		static vault v = new vault(321651);
+		static vault v = new vault(7671);
 		public static void main(String[] args) {
 			JamesBond j = new JamesBond();
 			j.findCode(v);
